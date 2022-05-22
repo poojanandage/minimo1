@@ -1,0 +1,82 @@
+.container{
+	width:1100px;
+	margin:0 auto;
+}
+a:link,a:visited{
+	text-decoration:none;
+}
+ul{
+	list-style:none;
+}
+.row,
+.row::after,
+.row::before{
+	display:table;
+	clear:both;
+	width:100%;
+}
+div[class^="col"]{
+	float:left;
+	padding:0 14px;
+}
+.col-off-set1{
+	margin-left:calc(100% * 1/12);
+}
+.col-off-set4{
+	margin-left:calc(100% * 4/12);
+}
+.col2{
+	width:calc(100% * 2/12);
+}
+.col3{
+	width:calc(100% * 3/12);
+}
+.col4{
+	width:calc(100% * 4/12);
+}
+.col6{
+	width:calc(100% * 6/12);
+}
+.col9{
+	width:calc(100% * 9/12);
+}
+.col10{
+	width:calc(100% * 10/12);
+}
+.col12{
+	width:calc(100% * 12/12);
+}
+/* &&&&&&&&&&&&&&&&&&&&&&&&  margin css start  &&&&&&&&&&&&&&&&&&&&&&&& */
+.mb-70{
+	margin-bottom:70px;
+}
+.mb-30{
+	margin-bottom:30px;
+}
+.mb-35{
+	margin-bottom:35px;
+}
+.mb-50{
+	margin-bottom:50px;
+}
+.mt-90{
+	margin-top:90px;
+}
+.mb-135{
+	margin-bottom:135px;
+}
+.mt-100{
+	margin-top:100px;
+}
+.pr-30{
+	padding-right:30px;
+}
+.pl-30{
+	padding-left:30px;
+}
+.text-center{
+	text-align:center;
+}
+.text-right{
+	text-align: right;
+}
